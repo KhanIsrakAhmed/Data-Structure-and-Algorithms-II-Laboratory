@@ -1,0 +1,13 @@
+DnC :
+•	Maximum Sum Subarray
+•	Min-Max
+Greedy:
+•	Fractional Knapsack
+•	Activity Selection 
+DP: 
+•	Coin Change
+•	0/1 Knapsack
+MST: 
+•	Kruskal Algo
+SSSP: 
+•	Dijkstra Algo
