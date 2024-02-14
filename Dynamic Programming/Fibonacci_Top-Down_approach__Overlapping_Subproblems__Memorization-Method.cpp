@@ -1,22 +1,11 @@
+//        ****************  Author :  Khan Israk Ahmed  *************************\
+//        ****************  Date:    30-11-2023     *************************\
 
-//        ****************  Author :  Tashin.Parvez  ****************
-//        ************* United International University *************
-//        ****************  Updated:    27/10/23     ****************
 
 #include <bits/stdc++.h>
-#define CRACKED return 0;
-#define nl endl // NewLine
-#define null NULL
-#define sp " " // space
-#define setDec(x) fixed << setprecision(x)
-#define len(s) s.length()
-#define deb(n) cout << "Tashin   " << #n << " = " << n << endl; // debug code
-
-#define int long long
-const int N = 1e5 + 2;
 using namespace std;
 
-
+const int N = 1e5 + 2;
 int dpTable[N];
 
 int fib(int n)
@@ -32,23 +21,20 @@ int fib(int n)
         int friend1 = fib(n - 1);
         int friend2 = fib(n - 2);
         dpTable[n] = friend1 + friend2;
-
         return dpTable[n];
     }
 }
 
-int32_t main()
+int main()
 {
     int n;
     cin >> n;
 
     for (int i = 0; i < N; i++)
-    {
         dpTable[i] = -1;
-    }
 
     int num = fib(n);
-    cout << "\n Fibonacci series " << n << "th element is : " << num << nl << nl;
+    cout << "\nFibonacci series " << n << "th element is: " << num << "\n\n";
 
-    CRACKED;
+    return 0;
 }
