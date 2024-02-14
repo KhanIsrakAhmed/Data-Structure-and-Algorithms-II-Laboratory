@@ -8,7 +8,6 @@ p4 5
 p5 12
 
 
-
 Train input
 5
 t1 9 10
