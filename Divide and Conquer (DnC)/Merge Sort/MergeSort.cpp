@@ -1,4 +1,8 @@
-#include <iostream>
+//        ****************  Author :  Khan Israk Ahmed  *************************\
+//        ****************  Date:    30-11-2023     *************************\
+
+
+#include <bits/stdc++.h>
 using namespace std;
 
 void printArray(int arr[], int len)
@@ -64,11 +68,10 @@ void merge(int *arr, int s, int e)
     delete[] second;
 }
 
- /* This is the implementation of the merge sort algorithm. */
+/* This is the implementation of the merge sort algorithm. */
 void mergeSort(int *arr, int s, int e)
 {
 
-   
     // base case
     if (s >= e)
         return;
@@ -88,7 +91,7 @@ void mergeSort(int *arr, int s, int e)
 int main()
 {
     // int arr[] = {3, 7, 0, 1, 5, 8, 3, 2, 34, 66, 87, 23, 12, 12, 12}; // odd
-    int arr[] = {22, 32, 6, -2, 2, 3, 9, 10}; // even 
+    int arr[] = {22, 32, 6, -2, 2, 3, 9, 10}; // even
 
     int len = sizeof(arr) / sizeof(arr[0]);
 
