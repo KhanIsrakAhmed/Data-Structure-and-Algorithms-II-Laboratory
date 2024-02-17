@@ -1,5 +1,8 @@
-#include <iostream>
-#include <string>
+//        ****************  Author :  Khan Israk Ahmed  *************************\
+//        ****************  Date:    23-12-2023     *************************\
+
+
+#include <bits/stdc++.h>
 using namespace std;
 
 /* Function to count substrings with same first and
