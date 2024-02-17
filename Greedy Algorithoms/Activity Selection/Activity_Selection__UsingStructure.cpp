@@ -5,7 +5,7 @@
 
 #include <bits/stdc++.h>
 #define CRACKED return 0;
-#define nl endl // NewLine
+#define endl endl // NewLine
 #define null NULL
 #define sp " " // space
 #define setDec(x) fixed << setprecision(x)
@@ -33,7 +33,8 @@ int activitySelection(vector<Activity> activity)
 
     int taskTaken_Counter = 1; /// always picked first task
     int freeTime = activity[0].endTime;
-    cout << nl << "Activity Picked :  " << activity[0].actNo << " ";
+    cout << endl
+         << "Activity Picked :  " << activity[0].actNo << " ";
 
     for (int i = 1; i < activity.size(); i++)
     {
@@ -66,9 +67,10 @@ int32_t main()
 
     int numberOftask = activitySelection(activity);
 
-    cout << nl << "Num of tasks: " << numberOftask << nl;
+    cout << endl
+         << "Num of tasks: " << numberOftask << endl;
 
-    CRACKED;
+    return 0;
 }
 
 /*
