@@ -1,17 +1,8 @@
+//        ****************  Author :  Khan Israk Ahmed  *************************\
+//        ****************  Date:    23-12-2023     *************************\
 
-//        ****************  Author :  Tashin.Parvez  ****************
-//        ************* United International University *************
-//        ****************  Updated:    27/10/23     ****************
 
 #include <bits/stdc++.h>
-#define CRACKED return 0;
-#define nl endl // NewLine
-#define null NULL
-#define sp " " // space
-#define setDec(x) fixed << setprecision(x)
-#define len(s) s.length()
-#define deb(n) cout << "Tashin   " << #n << " = " << n << endl; // debug code
-
 using namespace std;
 
 bool comperator(vector<int> &v1, vector<int> &v2)
@@ -28,13 +19,13 @@ bool comperator(vector<int> &v1, vector<int> &v2)
 
 int32_t main()
 {
-    cout << "Enter total tasks: " << nl;
+    cout << "Enter total tasks: " << endl;
     int n;
     cin >> n;
 
     vector<vector<int>> vii(n); /// 2D vector = each index represent another vector(start time, end time)
 
-    cout << "Enter n tasks start and end times: " << nl;
+    cout << "Enter n tasks start and end times: " << endl;
     for (int i = 0; i < n; i++)
     {
         int start, end;
@@ -59,7 +50,7 @@ int32_t main()
         }
     }
 
-    cout << "Task Taken " << taskTaken << nl;
+    cout << "Task Taken " << taskTaken << endl;
 
-    CRACKED;
+    return 0;
 }
